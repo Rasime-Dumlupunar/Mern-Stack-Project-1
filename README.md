@@ -71,3 +71,5 @@ This project is a post-sharing application developed using the MERN Stack. The a
 - **jsonwebtoken** (for authentication)
 - **dotenv** (for environment variables)
 - **cors** (for handling cross-origin requests)
+
+![](https://github.com/Rasime-Dumlupunar/Mern-Stack-Project-1/blob/main/mern%20stack.gif)
