@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# MERN Stack Gönderi Paylaşım Uygulaması
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bu proje, **MERN Stack** kullanılarak geliştirilmiş bir gönderi paylaşım uygulamasıdır. Uygulama, React.js tabanlı bir Frontend ile MongoDB destekli bir backend'i birleştirerek, modern web uygulamalarının nasıl oluşturulabileceğine dair bir örnek sunar. Kullanıcılar, bu uygulama üzerinden gönderi oluşturabilir, düzenleyebilir ve silebilir.
 
-## Available Scripts
+- **Frontend**: React.js, Redux ve Redux-Thunk kullanılarak oluşturulmuştur.
+- **Backend**: Node.js, Express.js, MongoDB ve çeşitli yardımcı araçlarla geliştirilmiştir.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Özellikler
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Yeni bir gönderi oluşturma.
+- Mevcut bir gönderiyi güncelleme.
+- Bir gönderiyi silme.
+- Duyarlı ve verimli bir kullanıcı arayüzü.
+- JWT doğrulama ile güvenli bir backend.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Teknolojiler
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Frontend
 
-### `npm run build`
+- **React.js**: Kullanıcı arayüzü oluşturmak için popüler bir JavaScript kütüphanesi.
+- **Redux**: Uygulama durumu yönetimi için kullanılır.
+- **Redux-Thunk**: Redux ile asenkron işlemleri yönetmek için kullanılan bir middleware.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Backend
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Node.js**: JavaScript tabanlı sunucu tarafı çalışma ortamı.
+- **Express.js**: Node.js için hafif ve hızlı bir web framework'ü.
+- **MongoDB (Mongoose)**: MongoDB veritabanını kolayca kullanmak için bir ORM kütüphanesi.
+- **Nodemon**: Geliştirme sırasında sunucunun otomatik olarak yeniden başlatılmasını sağlar.
+- **jsonwebtoken (JWT)**: Kullanıcı doğrulaması için güvenli bir yöntem sağlar.
+- **dotenv**: Çevresel değişkenleri yönetmek için kullanılır.
+- **cors**: Farklı kaynaklar arasında veri paylaşımını (CORS) yönetmek için kullanılır.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# MERN Stack Post Sharing Application
 
-### `npm run eject`
+This project is a post-sharing application developed using the MERN Stack. The application combines a React.js-based frontend with a MongoDB-backed backend, providing an effective example of how modern web applications can be built. Users can create, edit, and delete posts through this application.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Frontend**: React.js with Redux and Redux-Thunk.
+- **Backend**: Node.js, Express.js, MongoDB, and various utilities.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Features
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Create a new post.
+- Update an existing post.
+- Delete a post.
+- Responsive and efficient UI.
+- Secure backend with JWT authentication.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Tech Stack
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Frontend
 
-### Code Splitting
+- **React.js**
+- **Redux**
+- **Redux-Thunk**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Backend
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Node.js**
+- **Express.js**
+- **MongoDB (Mongoose)**
+- **Nodemon** (for development)
+- **jsonwebtoken** (for authentication)
+- **dotenv** (for environment variables)
+- **cors** (for handling cross-origin requests)
